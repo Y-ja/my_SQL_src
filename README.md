@@ -40,8 +40,8 @@ sudo systemctl start mysql
 ```
 
 ## 'TEST' 라는 데이터 베이스 생성
-앞서서 이야기를 아였듯이 'sudo mysql -u root' 통해 들어간후 mysql 작업을 진행을 하시면 됩니다
-하지만 철자가 틀리면 모든게 꼬이니 신중해서 작업 해주세여 !!!
+- 앞서서 이야기를 아였듯이 'sudo mysql -u root' 통해 들어간후 mysql 작업을 진행을 하시면 됩니다.
+- 하지만 철자가 틀리면 모든게 꼬이니 신중해서 작업 해주세여 !!!
 ```
 mysql> CREATE DATABASE TEST;
 ```
