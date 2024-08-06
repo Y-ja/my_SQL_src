@@ -50,3 +50,8 @@ mysql> CREATE DATABASE TEST;
 sudo apt install mysql-workbench
 ```
 mysql 설치시 이것도 같이 설치하면 조금 더 쉽게 sql문 작성을 할수가 있습니다
+```
+GRANT ALL PRIVILEGES ON *.* TO 'new_user'@'localhost' WITH GRANT OPTION;
+```
+- 모든 권한을 새로운 유저에게 부여 받을수 있게 하는 명령어 입니다.
+- 새로운 유저를 만들어 다른 작업을 할수 있도록 제공을 해줍니다.
