@@ -30,3 +30,12 @@ UPDATE user SET host='%' WHERE user='root' and host='localhost';
 ```
 mysql> exit
 ```
+mysql빠져 나온뒤 리눅스 터미널 창에서 작업을 합니다 
+```
+/// vim으로 config 파일 sudo 권한으로 열기(mysql.cnf 파일이 아니라, mysqld.cnf 파일 입니다.)
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+/// mysql 재실행
+sudo systemctl stop mysql
+sudo systemctl start mysql
+```
+
