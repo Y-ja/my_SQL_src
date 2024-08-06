@@ -1,10 +1,10 @@
 # 🍀 MySQL 데이터베이스 명령어 가이드 🍀
 이 문서는 MySQL 데이터베이스 작업을 위한 주요 SQL 명령어들을 정리한 가이드입니다.
-1. 데이터베이스 생성
+📰 1. 데이터베이스 생성 📰
 ```
 CREATE DATABASE database_name;
 ```
-2. 데이터베이스 삭제
+2. 데이터베이스 삭제 
 ```
 DROP DATABASE database_name;
 ```
