@@ -40,3 +40,15 @@ LIMIT number;
 INSERT INTO table_name (column1, column2, ...)
 VALUES (value1, value2, ...);
 ```
+3. 데이터 추가 (수정)
+```
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+4. 데이터 삭제
+```
+DELETE FROM table_name
+WHERE condition;
+```
+위에 나와 있는 코드 처럼 가장 많이 사용하고 대표적인 코드 입니다.
