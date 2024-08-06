@@ -45,3 +45,8 @@ sudo systemctl start mysql
 ```
 mysql> CREATE DATABASE TEST;
 ```
+### 포인트
+```
+sudo apt install mysql-workbench
+```
+mysql 설치시 이것도 같이 설치하면 조금 더 쉽게 sql문 작성을 할수가 있습니다
